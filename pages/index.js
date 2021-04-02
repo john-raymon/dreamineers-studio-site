@@ -16,6 +16,18 @@ export default function Home() {
               <p className="text-white font-sync font-bold md:text-2xl uppercase w-1/2 pr-10">
                 We are a small independent web technology studio.
               </p>
+              <ul className="text-white text-right font-sync font-bold md:text-2xl uppercase w-1/2 pl-10">
+                <li>
+                  <a href="#work" className="hover:text-gray-500 transition transition-all">
+                    view our work
+                  </a>
+                </li>
+                <li>
+                  <a href="#about" className="hover:text-gray-500 transition transition-all">
+                    about
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
