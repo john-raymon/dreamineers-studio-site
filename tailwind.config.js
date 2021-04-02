@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'sync': ['Syncopate', 'sans-serif'],
+      'sync': ['Syncopate', 'sans-serif']
     },
     extend: {
       maxHeight: {
@@ -14,5 +14,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: []
 }
