@@ -36,10 +36,10 @@ export default function Home(props) {
           </div>
         </div>
         <div id="about" className="w-full mx-auto max-w-7xl px-6 my-10">
-          <h2 class="uppercase font-sync font-bold text-3xl mb-3">
+          <h2 className="uppercase font-sync font-bold text-3xl mb-3">
             About
           </h2>
-          <p className="text-gray-700 font-sync font-bold md:text-2xl uppercase w-1/2 pr-10">
+          <p className="text-gray-700 font-sync font-bold text-xl md:text-2xl uppercase w-3/4 pr-10">
             { props.globalContent.aboutDescription }
           </p>
         </div>
@@ -53,7 +53,7 @@ export default function Home(props) {
                 return (
                   <li key={item.sys.id} className="w-full flex flex-col md:flex-row mb-28">
                     <div class="pt-3">
-                      <p className="sticky top-0 flex items-center font-sync text-xl md:text-xl text-gray-600 pb-6 md:pb-0 py-3 font-bold md:pr-5">
+                      <p className="sticky top-0 flex justify-between items-center font-sync text-xl md:text-xl text-gray-600 pb-6 md:pb-0 py-3 font-bold md:pr-5">
                         {item.fields.title}
                         {
                           item.fields.link ?
