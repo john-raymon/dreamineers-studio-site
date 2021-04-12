@@ -52,7 +52,7 @@ export default function Home(props) {
               props.workContent.items.map((item) => {
                 return (
                   <li key={item.sys.id} className="w-full flex flex-col md:flex-row mb-14">
-                    <div>
+                    <div className="w-full md:w-1/2">
                       <p className="sticky top-0 flex justify-between items-center font-sync text-xl md:text-xl text-gray-600 pb-6 md:pb-0 py-3 font-bold md:pr-5">
                         {item.fields.title}
                         {
@@ -65,7 +65,7 @@ export default function Home(props) {
                         }
                       </p>
                     </div>
-                    <div className="w-full md:w-2/3">
+                    <div className="w-full md:w-1/2">
                       <div className="aspect-w-1 aspect-h-1 w-full">
                         <img src={item.fields.image.fields.file.url} className="object-cover w-full shadow-2xl"/>
                       </div>
